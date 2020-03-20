@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*--------------------------------------------------------------
+>>> CSS STANDARDS
+----------------------------------------------------------------
+1. Place in appropriate section
+2. Add new sections to the Table of Contents as needed
+3. Order properties consistently inside each declaration i.e. alphabetically or by function 
+4. Declaration selectors should each occupy a new line
+5. Enter one new line between rules
+6. Enter more than one new line between categories 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Settings: used with preprocessors and contain font, colors definitions, etc.
+2.0 - Tools: globally used mixins and functions. Use for preprocessor only.
+3.0 - Generic: reset and/or normalize styles, box-sizing definition, etc. 
+4.0 - Elements: styling for bare/generic HTML elements 
+        - Forms
+        - Lists
+        - Media
+        - Tables
+        - Typography: Headings, Paragraphs, Blockquotes, Anchors
+5.0 - Objects: class-based selectors which define undecorated design patterns, building blocks
+        - Framework
+6.0 - Components: specific designed components
+        - Buttons
+        - Header
+        - Navigation 
+7.0 - Utilities: utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class
+        - Alignment	    
+        - Color
+        - Size
+
+
+/*--------------------------------------------------------------
+1.0 - Settings
+-------------------------------------------------------------- */
+
+
+.wrapper{
+	width: 1170px;
+	margin: 0 auto;	
+}
+.row{
+	overflow: auto;
+}
+/*--------------------------------------------------------------
+2.0 - Tools
+-------------------------------------------------------------- */
+/* -- FORMS -- */ 
+
+/*--------------------------------------------------------------
+3.0 - Generic
+-------------------------------------------------------------- */
+/* -- FORMS -- */ 
+*{
+	-webkit-box-sizing: border-box;
+	-mox-box-string: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*--------------------------------------------------------------
+4.0 - ELEMENTS 
+-------------------------------------------------------------- */
+/* -- FORMS -- */ 
+
+/*--------------------------------------------------------------
+5.0 - Objects
+-------------------------------------------------------------- */
+/* -- FORMS -- */ 
+.teal-bar{
+	background-color:#36B3AC;
+	height: 55px;
+	margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+4.0 - Componets
+-------------------------------------------------------------- */
+/* -- FORMS -- */ 
+
+header nav{
+	float: right;
+}
+.btn{
+	background-color:#36B3AC;
+	padding:7px;
+	color: #fff;
+	border-radius: 15px;
+	text-decoration: none;
+	font-family: Source Sans Pro, sans-serif;
+	font-weight: 400;
+}
+
+
+/*--------------------------------------------------------------
+4.0 - Utilities
+-------------------------------------------------------------- */
+/* -- FORMS -- */ 
+header .row div{
+	float: left;
+}
+#bg-img-takeaction, #bg-img-home, #bg-img-about{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 615px;
+}
+#bg-img-home{
+	background-image: url("../img/hero.jpeg");
+}
+#bg-img-about{
+	background-image: url("../img/about.jpeg");
+	
+}
+#bg-img-takeaction{
+	background-image: url("../img/take-action.jpg");
+}
+.bg-black li{
+	display:inline-block;
+	font-family: Montserrat, sans-serif;
+	font-size: 16px;
+	margin:0 60px;
+}
+.bg-black{
+	background-color: #1F1F1F;
+	color: #fff;
+	padding: 5px;
+	align-content: center;
+}
+nav li{
+	display:inline;
+	border-radius: 10px;
+	border-color: black;
+	border
+}
+
+.col1-2{
+	width: 510px;
+	margin-right:70px;
+}
+.col1-2{
+	float: left;
+}
+.col1-3{
+	width: 370px;
+	float: right;
+	margin-right:20px;
+}
+
+header #home, header h1{
+	font-family: EB Garamond, serif;
+	font-size: 40px;
+	font-style: italic;
+	color:#fff;
+}
+span{
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+}
+
+p{
+	font-size: 20px;
+	color:#1F1F1F;
+	font-family: EB Garamond, sans-serif;
+}
+
+h1{
+	font-size: 45px;
+	font-family:Montserrat, sans-serif;
+}
+
+h2{
+	font-size: 16px;
+	font-family: Montserrat, sans-serif;
+	color:#BDBDBD;
+}
+
+#about-main{
+	float: right;
+}
+
+#about-main{
+	width:800px;
+}
+.achmnt-col1-2{
+	margin-left: 20px;
+}
+.achmnt-col1-2, .achmnt-col1-2{
+	float: left;
+	width: 370px;
+}
+.achmnt-col1-2 ul li, .achmnt-col1-2 ul li{
+	list-style-image: url("../img/tree.jpg");
+	font: normal 20px EB Garamond, serif;
+	
+}
+
+.lead{
+	font-size: 24px;
+	font-family: EB Garamond, serif;
+}
+footer, .lead, header, .bg-black{
+	text-align: center;
+}
+#photographer{
+	font-style: italic;
+	font-family:EB Garamond, serif;
+	font-size:12px;
+	color:#36B3AC;
+}
+
+td{
+	padding: 10px;
+	margin: 2px 50px;
+	font: 20px EB Garamond, serif;
+}
+tr:nth-child(odd){
+	background-color: #F2F2F2;
+}
